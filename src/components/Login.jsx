@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { signInWithGoogle } from '../firebase';
 import { useNavigate } from 'react-router-dom';
+import './Login.css'; // Import the CSS file
 
 function Login() {
   const [user, setUser] = useState(null);
@@ -17,7 +18,7 @@ function Login() {
   };
 
   return (
-    <div>
+    <div className="login-container">
       <h1>Login</h1>
       <button onClick={handleGoogleSignIn}>Sign in with Google</button>
     </div>

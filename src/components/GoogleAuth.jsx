@@ -16,7 +16,7 @@ const GoogleAuth = ({ setCurrentUser }) => {
       } : null);
     });
     return () => unsubscribe();
-  }, []);
+  }, [setCurrentUser]); // Add setCurrentUser to the dependency array
 
   return (
     <div className="google-auth-container">
