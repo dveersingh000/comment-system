@@ -1,4 +1,3 @@
-// Login.jsx
 import { useState } from 'react';
 import { signInWithGoogle } from '../firebase';
 import { useNavigate } from 'react-router-dom';

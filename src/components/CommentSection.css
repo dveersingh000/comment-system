@@ -1,0 +1,135 @@
+/* CommentSection.css */
+
+/* Container for the entire comment section */
+.comment-section-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
+/* Each individual comment */
+.comment-section-comment {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 3px solid #ff0072;
+}
+
+/* Profile section (image and name) */
+.comment-section-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.comment-section-profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.comment-section-profile-name {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Comment text */
+.comment-section-text {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Rich text formatting */
+.comment-section-text b {
+    font-weight: bold;
+}
+
+.comment-section-text i {
+    font-style: italic;
+}
+
+.comment-section-text u {
+    text-decoration: underline;
+}
+
+/* Reactions and reply section */
+.comment-section-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.comment-section-actions .reactions,
+.comment-section-actions .reply {
+    color: #888;
+    cursor: pointer;
+}
+
+.comment-section-actions .reactions:hover,
+.comment-section-actions .reply:hover {
+    color: #ff0072;
+}
+
+/* Pagination */
+.comment-section-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.comment-section-pagination button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #555;
+}
+
+.comment-section-pagination button:hover {
+    background-color: #ff0072;
+    color: #fff;
+}
+
+/* Input and buttons */
+.comment-section-input {
+    margin-top: 20px;
+}
+
+.comment-section-input textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    resize: vertical;
+    font-family: inherit;
+    font-size: 14px;
+    color: #333;
+}
+
+.comment-section-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.comment-section-buttons button {
+    background-color: #ff0072;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.comment-section-buttons button:hover {
+    background-color: #e60065;
+}
